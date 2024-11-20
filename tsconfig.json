@@ -41,5 +41,5 @@
     "emitDeclarationOnly": true,
   },
   // 指定只包含 lib 目录中的文件。
-  "include": ["lib"]
+  "include": ["test*/**/*"]
 }
