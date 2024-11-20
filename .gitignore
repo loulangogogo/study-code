@@ -1,0 +1,5 @@
+.DS_Store
+.vscode
+study-c.code-workspace
+*/*.dSYM/Contents
+.out-exe
