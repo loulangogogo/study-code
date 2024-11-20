@@ -1,0 +1,14 @@
+{
+  "name": "study-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "test-file": "npx vitest ./test/numberTool.test.ts",
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^5.4.9",
+    "vitest": "^2.1.5"
+  }
+}
