@@ -40,7 +40,6 @@ const enum Color2{
     blue = 20
 }
 
-
 describe('data type', () => {
     it('null', () => {
         // 可以读取值
