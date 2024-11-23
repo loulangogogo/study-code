@@ -14,6 +14,7 @@
         <module>yeepay</module>
         <module>quartz</module>
         <module>springboot</module>
+        <module>rocketmq</module>
     </modules>
 
     <properties>

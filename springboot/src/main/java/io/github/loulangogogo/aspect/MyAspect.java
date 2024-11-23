@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration;
  ** @author loulan
  ** @since 17
  *********************************************************/
-@Configuration
-@Aspect
+//@Configuration
+//@Aspect
 public class MyAspect {
 
 

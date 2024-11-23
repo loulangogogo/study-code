@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
  ** @author loulan
  ** @since 8
  *********************************************************/
-@Component
-@Slf4j
+//@Component
+//@Slf4j
 public class MyUser {
 
     @EnableAspect
