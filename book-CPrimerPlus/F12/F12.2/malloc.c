@@ -25,7 +25,8 @@ int main()
     }
 
     // malloc 可以动态分配内存，这样就可以做到动态数组大小，变长数组。
-    ptd = (double *)malloc(max * sizeof(double));
+    // ptd = (double *)malloc(max * sizeof(double));
+    ptd = (double *)calloc(max, sizeof(double));
     if (ptd == NULL)
     {
         puts("Memory allocation failed. Goodbye.");
@@ -63,5 +64,6 @@ int main()
     puts("Done.");
     free(ptd);
 
+    printf("%7.2f", ptd[1]);
     return 0;
 }
